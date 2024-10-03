@@ -1,5 +1,5 @@
 import numpy as np
-import linalg
+from scipy import linalg
 
 def DLT_2_cameras(imgpoints_Origin, imgpoints_Pair1, projMatr_Origin, projMatr_Pair1):
     points_3d_list = []
