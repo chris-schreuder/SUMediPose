@@ -6,6 +6,9 @@ We introduce a multimodal dataset comprising 3,444 videos, 2,896,943 image frame
 
 The dataset also includes all intrinsic and extrinsic camera parameters, as well as origin axis data, necessary for performing any 3D or 2D projections. This allows the dataset to be adjusted and tailored to meet specific research or application needs.
 
+## How To Access the Dataset
+The dataset can be found at: https://doi.org/10.7910/DVN/GRRROM
+
 ## How To Use The Dataset
 The dataset contains multile files and file types such as images, keypoint coordiates, subject data, etc. The *SUMediPose.csv* file is provided to aid in the use of the various data.
 ### SUMediPose.csv 
@@ -26,3 +29,5 @@ CSV file, which links the each image frame in the dataset to their corrisponding
 
 ## Code
 
+## Licensing
+This dataset is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0) License.
