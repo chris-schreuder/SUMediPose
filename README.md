@@ -2,7 +2,7 @@
 
 ![Data Example](extra/data_example.gif)
 
-We introduce a multimodal dataset comprising 3,444 videos, 2,896,943 image frames, and 3,804,413 corresponding 3D and 2D marker-based motion capture keypoint coordinates. The dataset includes 26 participants performing seven actions at three different speeds. Video and image data were captured using a custom-developed multi-RGB-camera system, while the marker-based 3D data was acquired using the Vicon system and projected into the cameras' 3D and 2D spaces. To ensure anatomical accuracy, a professional placed an extensive array of markers on each participant, adhering to industry standards. The recording setup was designed to allow both capture systems to record participants' movements simultaneously, synchronizing the data to provide ground truth 3D and 2D keypoint data for corresponding image frames. This design enables the dataset to support both 2D and 3D pose estimation tasks. The multi-RGB-camera system consists of six cameras arranged in a circular formation around the subject, offering a full 360-degree view of the scene from the same height and resulting in a diverse set of viewing angles.
+We introduce a multimodal dataset comprising 3,444 videos, 2,896,943 image frames, and 3,804,413 corresponding 3D and 2D marker-based motion capture keypoint coordinates. The dataset includes 28 participants performing seven strength and conditioning actions at three different speeds. Video and image data were captured using a custom-developed multi-RGB-camera system, while the marker-based 3D data was acquired using the Vicon system and projected into the cameras' 3D and 2D spaces. The multi-RGB-camera system consists of six cameras arranged in a circular formation around the subject, offering a full 360-degree view of the scene from the same height and resulting in a diverse set of viewing angles. The recording setup was designed to allow both capture systems to record participants' movements simultaneously, synchronizing the data to provide ground truth 3D data, which was then back-projected to generate 2D pixel keypoint data for each corresponding image frame. This design enables the dataset to support both 2D and 3D pose estimation tasks. To ensure anatomical accuracy, a professional placed an extensive array of markers on each participant, adhering to industry standards.
 
 The dataset also includes all intrinsic and extrinsic camera parameters, as well as origin axis data, necessary for performing any 3D or 2D projections. This allows the dataset to be adjusted and tailored to meet specific research or application needs.
 
@@ -24,4 +24,5 @@ CSV file, which links the each image frame in the dataset to their corrisponding
 | wcs_path      | Relative path of the 3D WCS data file within the main dataset folder; points to data relevant to the image            |
 
 
+## Code
 
